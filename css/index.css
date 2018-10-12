@@ -150,22 +150,30 @@ p, span {
 
 
 /*Media Queries*/
-/*xs < 575*/
-@media screen and (max-width: 575px) {
+/*xs < 768*/
+@media screen and (max-width: 767px) {
 
 	#rodape p, #rodape a, #rodape h4, #pag {
-		margin-left: 50px;
-		vertical-align: center;
-		
+		padding-left: 70px;
 	}
+
+	#barra-navegacao {
+		text-align: center;
+	}
+
+	.img-dono {
+		margin: 0 auto;
+	}
+
+	
 
 
 
 }
 
-/*sm < 768*/
+/*sm > 768*/
 
-@media screen  and (max-width: 768px) {
+@media screen  and (min-width: 768px) {
 	#titulo {
 		text-align: center;
 		width: 50vmin;
@@ -192,9 +200,9 @@ p, span {
 
 }
 
-/*md < 992*/ 
+/*md > 992*/ 
 
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 992px) {
    
   h1, h2, h3, h4, p {
 		width: 75vmin;
@@ -213,7 +221,7 @@ p, span {
 
 /*lg*/
 
-@media all and (max-width: 1080px) {
+@media all and (min-width: 1080px) {
 	h1, h2, h3, h4, p {
 		width: 90vmin;
 	}
