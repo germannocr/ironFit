@@ -124,6 +124,8 @@ p, span {
 
 
 
+
+
 /*Rodape*/
 #rodape .icone {
 	padding-right: 10px;
@@ -133,6 +135,7 @@ p, span {
 	background-color: #070709;
 	color: #fefe;
 	text-transform: uppercase;
+	width: 100%;
 }
 
  #rodape a {
@@ -153,7 +156,7 @@ p, span {
 /*xs < 768*/
 @media screen and (max-width: 767px) {
 
-	#rodape p, #rodape a, #rodape h4, #pag {
+	#rodape p, #rodape a, #rodape h4 {
 		padding-left: 70px;
 	}
 
