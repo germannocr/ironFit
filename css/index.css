@@ -72,6 +72,7 @@ p {
 	border-radius: 3%;
 }
 
+
 .row {
 	padding: 25px 0;
 }
@@ -99,6 +100,8 @@ p {
 	text-align: center;
 	margin: auto;
 }
+
+
 
 .divisor {
 	margin-top: 10px;
@@ -148,12 +151,8 @@ p {
 	#rodape p, #rodape a, #rodape h4, #pag {
 		margin-left: 50px;
 		vertical-align: center;
+		
 	}
-
-
-
-
-
 }
 
 /*sm < 768*/
