@@ -8,6 +8,7 @@ body {
 }
 
 
+
 /*Header Config*/
 
 nav {
@@ -54,9 +55,13 @@ nav {
 
 /*Conteudo*/
 
-p {
+p, span {
 	text-align: justify;
+	font-family: 'PT Serif', serif;
+	font-size: 1.2em
 }
+
+
 
 .titulo {
 	font-size: 3em;
