@@ -1,0 +1,213 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: rgba(139,139,139, 0.2);
+}
+
+
+/*Header Config*/
+
+nav {
+	position: relative;
+	background-color: #000;
+}
+
+
+#header-img {
+	width: 100%;
+	height: 200px;
+}
+
+#barra-navegacao, h1, h2, h3 {
+	font-family: 'Russo One', sans-serif;
+}
+
+#barra-navegacao {
+	font-size: 20px;
+	padding: 10px;
+}
+
+
+.navbar-nav {
+	margin-left: 40px;
+}
+.navbar-nav>li>a{
+	padding: 10px 80px;
+	color: white;
+
+}
+
+.navbar-nav>li>a:hover{
+	background-color: #FFF;
+	color: black;
+	transition: background 0.4s, color 0.4s;
+}
+
+.navbar .navbar-toggle .icon-bar {
+	background-color: #fefefe;
+}
+
+
+
+/*Conteudo*/
+
+p {
+	text-align: justify;
+}
+
+.titulo {
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	margin: 15px auto;
+
+}
+
+.img-dono {
+	width: 380px;
+	height: 300px;
+	border-radius: 3%;
+}
+
+.row {
+	padding: 25px 0;
+}
+
+.descricao {
+	padding: 10px 10px;
+	vertical-align: center;
+}
+
+
+#carrossel {
+	margin: 15px auto;
+}
+
+.icone {
+	display: inline;
+	float: left;
+	margin-right: 25px;
+}
+
+#motivo-titulo {
+	color: #f30301;
+	font-weight: bold;
+	padding: 15px 0;
+	text-align: center;
+	margin: auto;
+}
+
+.divisor {
+	margin-top: 10px;
+	width: 100%;
+	height: 1px;
+	background-color: #FC0002;
+}
+
+.conteudo {
+	border-radius: 2px;
+	background-color: #fefe;
+	box-shadow: 5px 5px rgba(139,139,139, 0.2);
+
+}
+
+
+
+/*Rodape*/
+#rodape .icone {
+	padding-right: 10px;
+}
+
+#rodape {
+	background-color: #070709;
+	color: #fefe;
+	text-transform: uppercase;
+}
+
+ #rodape a {
+ 	display: block;
+ 	color: #fefe;
+ 	text-decoration: none;
+ }
+
+ 
+
+ #rodape span {
+ 	display: block;
+ }
+ 
+
+
+/*Media Queries*/
+/*xs < 575*/
+@media screen and (max-width: 575px) {
+
+	#rodape p, #rodape a, #rodape h4, #pag {
+		margin-left: 50px;
+		vertical-align: center;
+	}
+
+
+
+
+
+}
+
+/*sm < 768*/
+
+@media screen  and (max-width: 768px) {
+	#titulo {
+		text-align: center;
+		width: 50vmin;
+	}
+
+	.img-dono, .icone {
+		margin: 10px auto;
+	}
+
+	#quem-somos p {
+		margin: auto;
+	}
+
+
+	#barra-navegacao {
+		overflow-x: hidden;
+	}
+	
+	#pag {
+		margin-left: 10px;
+	}
+
+
+
+}
+
+/*md < 992*/ 
+
+@media screen and (max-width: 991px) {
+   
+  h1, h2, h3, h4, p {
+		width: 75vmin;
+	} 
+
+  #num {
+		margin-left: 75px;
+  }
+}
+
+/*md*/
+
+/* @media screen and (max-width: 992px) { 
+	
+} */
+
+/*lg*/
+
+@media all and (max-width: 1080px) {
+	h1, h2, h3, h4, p {
+		width: 90vmin;
+	}
+}
