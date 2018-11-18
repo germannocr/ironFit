@@ -12,8 +12,8 @@
 
 	<!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <link href="equipamento.css" rel="stylesheet">
+    <link href="css/general.css" rel="stylesheet">
+    <link href="css/equipamento.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -38,23 +38,16 @@
 <body>
 	<header>
 		<img src="imgs/header-iron.png" class="img-responsive" id="header-img">
-			<nav class="navbar">
-				<!-- Botao para small device -->
-				<button type="button" id="btn-mobile" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
-					<span class="sr-only">Alternar navegação</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="barra-navegacao">
-					<ul class="nav navbar-nav">
-						<li><a href="index.html">Sobre</a></li>
-						<li><a href="aulas.html">Aulas</a></li>
-						<li><a href="equipamento.html">Equipamentos</a></li>
-						<li><a href="#">Loja Iron</a></li>
-						<li><a href="#">Contato</a></li>
-					</ul>
-				</div> <!-- /navbar -->
+			<nav class="navbar mobile">
+		        <label for="show-menu" class="show-menu"><span></span><div class="lines"></div></label>
+
+				<input type="checkbox" id="show-menu" role="menu mobile">
+				<ul id="menu">
+					<li><a href="index.html">Sobre</a></li>
+					<li><a href="#">Aulas</a></li>
+					<li><a href="#">Equipamentos</a></li>
+					<li><a href="#">Contato</a></li>
+				</ul> <!-- /navbar -->
 			</nav> <!-- /nav -->
 	</header>
 
@@ -98,42 +91,50 @@
 	</main>
 	<div class="divisor"></div>
 	<footer id="rodape">
-		<div class="container">
+		<div class="container">		
 			<div class="row">
-				<div class="col-md-8 col-xs-12">
-					<img class="icone" src="imgs/local.png" alt="icone de localização"/>
-					<h4>Localização</h4>
-					<p>Rua Cel. Antônio José de Freitas, Nº 1230.</p>
+				<div class="col-xs-12 col-md-7">
+						<img class="icone" src="imgs/local.png" alt="icone de localização"/>
+						<h4>Localização</h4>
+						<p>Rua Cel. Antônio José de Freitas, Nº 1230.</p>
 				</div>
-				<div class="col-md-4 col-xs-12">
-					<img class="icone" src="imgs/facebook.png" alt="icone do facebook"/>
-					<a href="#">Shaya Iron</a>
-					<a href="#">Wellington Caminha</a>
+				<div class="col-xs-12 col-md-5">
+				
+						<img class="icone" src="imgs/facebook.png" alt="icone do facebook"/>
+						<a href="#">Shaya Iron</a>
+						<a href="#">Wellington Caminha </a>
 				</div>
+	
 			</div>
 			<div class="row">
-				<div class="col-md-8 col-xs-12">
-					<img class="icone" src="imgs/fone.png" alt="icone de telefone"/>
-					<h4>Telefone</h4>
-					<p>xxxx-xxxx</p>
-				</div>
-				<div class="col-md-4 col-xs-12">
+
+				<div  class="col-xs-12 col-md-7">
+			
 					<img class="icone" src="imgs/relogio.png" alt="icone de um relogio"/>
 					<h4>Atendimento</h4>
 					<p>De Segunda a Sexta, das 5h às 21h</p>
+				
+				</div>
+				<div  class="col-xs-12 col-md-5">
+
+					<img class="icone" src="imgs/fone.png" alt="icone de telefone"/>
+					<h4>Telefone</h4>
+					<p id="num">xxxx-xxxx</p>
 				</div>
 			</div>
+			
 			<div class="row">
-				<div class="col-md-12">
-					<h4>Formas de Pagamento</h4>
-					<span> Cartão de Crédito </span>
-					<img id="bandeira" src="imgs/bandeira.png" alt="bandeiras de alguns cartões comuns"/>
-				</div>
+					<div id="pag">
+						<h4 id="formaPag">Formas de Pagamento</h4>
+						<span> Cartão de Crédito </span>
+						<img id="bandeira" src="imgs/bandeira.png" alt="bandeiras de alguns cartões comuns"/>
+					</div>
 			</div>
 
 		</div>
 			
 	</footer>
+
 
 
 

@@ -1,176 +1,5 @@
-* {
-	padding: 0;
-	margin: 0;
-}
-
-body {
-	background-color: rgba(139,139,139, 0.2);
-}
-
-
-
-/*Header Config*/
-
-nav {
-	position: relative;
-	background-color: #000;
-}
-
-
-
-
-#header-img {
-	width: 100%;
-	height: 200px;
-}
-
- h1, h2, h3 {
-	font-family: 'Russo One', sans-serif;
-}
-
-#menu li a {
-	font-size: 20px;
-	padding: 10px 50px;
-	border-radius: 3%;
-}
-
-
-.mobile {
-  	display:block;
- 	width:100%;
-	background: #000;
-	line-height: 1.6em;
-	font-size: 1.2em;
-	font-weight: 400;
-	width:100%;
-	text-align:center;
-	position: relative;
-	margin:0 auto;
-}
-
-
-/*Strip the ul of padding and list styling*/
-.mobile ul {
-	list-style-type:none;
-	margin: 0 auto;
-	padding-left:0;
-	text-align:center;
-	width:100%;
-	position: absolute;
- 	background: #000;
-}
-
-/*Create a horizontal list with spacing*/
-.mobile li {
-	display:inline-block;
-}
-
-/*Style for menu links*/
-.mobile li a {
-	display:block;
-	min-width:140px;
-	text-align: center;
-	font-family: 'Russo One', sans-serif;
-	color: #fff;
-	text-transform:uppercase;
-	background: #000;
-	text-decoration: none;
-	margin-left:-5px;
-	padding: 10px 0;  	
-}
-
-/*Hover state for top level links*/
-.mobile li:hover a, .mobile li:hover .mobile ul a:hover {
-	color: #000;
-  	background-color:#fff;
-  	-webkit-transition: all 0.4s ease 0s;
-	-moz-transition: all 0.4s ease 0s;
-	-ms-transition: all 0.4s ease 0s;
-	-o-transition: all 0.4s ease 0s;
-	transition: all 0.4s ease 0s;
-}
-
-/*Style for dropdown links*/
-.mobile li:hover ul a {
-	background: #000;
-	color: #fff;
-	height: 40px;
-	line-height: 40px;
-}
-
-/*Hover state for dropdown links
-.mobile li:hover .mobile ul a:hover {
-	color: #000;
-}
-*/
-
-/*Hide dropdown links until they are needed*/
-.mobile li ul {
-	display: none;
-}
-
-/*Make dropdown links vertical*/
-.mobile li ul li {
-	display: block;
-	float: none;
-}
-
-/*Prevent text wrapping*/
-.mobile li ul li a {
-	width: auto;
-	min-width: 100px;
-	padding: 0 20px;
-}
-
-
-/*Style 'show menu' label button and hide it by default*/
-.mobile .show-menu {
-	text-decoration: none;
-	color: #fff;
-	background: #000;
-	text-align: center;
-	padding: 10px 15px;
-	display: none;
- 	cursor: pointer;
-  	text-transform: uppercase;
-}
-
-.mobile .show-menu span{
-   padding-left: 35px;
-}
-
-/*Hide checkbox*/
-.mobile input[type=checkbox]{
-    display: none;
-}
-
-/*Show menu when invisible checkbox is checked*/
-.mobile input[type=checkbox]:checked ~ #menu{
-    display: block;
-}
-
-
-
-
 /*Conteudo*/
 
-p, span, a {
-	text-align: justify;
-	font-family: 'PT Serif', serif;
-	font-size: 1.2em;
-	font-weight: 800;
-	color: #827E84;
-}
-
-
-
-.titulo {
-	font-size: 3em;
-	font-weight: bold;
-	text-align: center;
-	margin: 15px auto;
-
-}
 
 .img-dono {
 	width: 380px;
@@ -178,15 +7,6 @@ p, span, a {
 	border-radius: 3%;
 }
 
-
-.row {
-	padding: 25px 0;
-}
-
-.descricao {
-	padding: 10px 10px;
-	vertical-align: center;
-}
 
 
 #carrossel {
@@ -206,53 +26,6 @@ p, span, a {
 	text-align: center;
 	margin: auto;
 }
-
-
-
-.divisor {
-	margin-top: 10px;
-	width: 100%;
-	height: 1px;
-	background-color: #FC0002;
-}
-
-.conteudo {
-	border-radius: 2px;
-	background-color: #fefe;
-	box-shadow: 5px 5px rgba(139,139,139, 0.2);
-
-}
-
-
-
-
-
-/*Rodape*/
-#rodape .icone {
-	padding-right: 10px;
-}
-
-#rodape {
-	background-color: #070709;
-	color: #fefe;
-	text-transform: uppercase;
-	width: 100%;
-}
-
- #rodape a {
- 	display: block;
- 	color: #fefe;
- 	text-decoration: none;
- }
-
- 
-
- #rodape span {
- 	display: block;
- }
- 
-
-
 /*Media Queries*/
 /*xs < 768*/
 @media screen and (max-width: 767px) {
@@ -273,26 +46,12 @@ p, span, a {
 /*sm > 768*/
 
 @media screen  and (min-width: 768px) {
-	#titulo {
-		text-align: center;
-		width: 50vmin;
-	}
-
 	.img-dono, .icone {
 		margin: 10px auto;
 	}
 
 	#quem-somos p {
 		margin: auto;
-	}
-
-
-	#barra-navegacao {
-		overflow-x: hidden;
-	}
-	
-	#pag {
-		margin-left: 10px;
 	}
 }
 
@@ -330,10 +89,6 @@ p, span, a {
 /*md > 992*/ 
 
 @media screen and (min-width: 992px ) and (max-width: 1079px) {
-   
-  h1, h2, h3, h4, p {
-		width: 75vmin;
-	} 
 
   #num {
 		margin-left: 50px;
@@ -344,24 +99,12 @@ p, span, a {
 	float: left;
 
   }
-
-
 }
 
 /*lg*/
 
 @media all and (min-width: 1080px) {
-	h1, h2, h3, h4, p {
-		width: 90vmin;
-	}
-
-	h3 {
-		font-size: 2.4em;
-	}
-
 	#motivos img {
 		margin-left: 40%; /*maldito seja o bs e seu alinhamennto*/
 	}
-	
-
 }
