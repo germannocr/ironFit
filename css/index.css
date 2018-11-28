@@ -13,11 +13,6 @@
 	margin: 15px auto;
 }
 
-.icone {
-	display: inline;
-	float: left;
-	margin-right: 25px;
-}
 
 #motivo-titulo {
 	color: #f30301;
@@ -29,14 +24,6 @@
 /*Media Queries*/
 /*xs < 768*/
 @media screen and (max-width: 767px) {
-
-	#rodape p, #rodape a, #rodape h4 {
-		padding-left: 70px;
-	}
-
-	#barra-navegacao {
-		text-align: center;
-	}
 
 	.img-dono {
 		margin: 0 auto;

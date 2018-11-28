@@ -97,12 +97,6 @@ nav {
 	line-height: 40px;
 }
 
-/*Hover state for dropdown links
-.mobile li:hover .mobile ul a:hover {
-	color: #000;
-}
-*/
-
 /*Hide dropdown links until they are needed*/
 .mobile li ul {
 	display: none;
@@ -217,6 +211,12 @@ p, span, a {
  	display: block;
  }
 
+ .icone {
+	display: inline;
+	float: left;
+	margin-right: 25px;
+}
+
 /*Menu mobile se extende ate 992*/
 @media screen and (max-width : 991px){
   .mobile .lines {
@@ -245,6 +245,18 @@ p, span, a {
 	/*Display 'show menu' link*/
 	.mobile .show-menu {
 		display:block;
+	}
+
+	#rodape p, #rodape a, #rodape h4 {
+		padding-left: 70px;
+	}
+
+	#barra-navegacao {
+		text-align: center;
+	}
+
+	#pag span, #pag img {
+		padding-left: 70px;
 	}
 }	
 
