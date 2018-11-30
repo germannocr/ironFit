@@ -159,7 +159,13 @@ p, span, a {
 	font-weight: bold;
 	text-align: center;
 	margin: 15px auto;
+}
 
+.img-dono {
+	width: 380px;
+	height: 300px;
+	border-radius: 3%;
+	box-shadow: 3px 2px 5px #827E84;
 }
 
 .row {
