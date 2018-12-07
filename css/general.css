@@ -299,7 +299,7 @@ p, span, a {
 
 /*lg*/
 
-@media all and (min-width: 1080px) {
+@media screen and (min-width: 1080px) {
 	h1, h2, h3, h4, p {
 		width: 90vmin;
 	}
