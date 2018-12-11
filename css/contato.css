@@ -12,12 +12,15 @@
 	width: 100%;
 }
 
-#facebook>a {
+#facebook a {
 	display: block;
 	margin: 0 auto;
 	font-size: 2.5em;
 	text-decoration: none;
 	text-align: center;
+}
+
+#first {
 	padding-top: 30px;
 }
 
