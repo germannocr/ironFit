@@ -7,28 +7,38 @@
 	font-size: 2em;
 }
 
-#facebook {
-	margin-top: 45px;
-	width: 100%;
+#esquerda img {
+	display: block;
+	position: relative;
+	top: 0;
+	left: 50%;	
 }
 
-#facebook a {
+#esquerda a {
 	display: block;
-	margin: 0 auto;
 	font-size: 2.5em;
 	text-decoration: none;
 	text-align: center;
 }
 
-#first {
-	padding-top: 30px;
+#direita img {
+	margin: 10px;
+	padding-right: 15px;
 }
 
-#facebook img {
-	position: relative;
-	top: 0;
-	left: 50%;
-	margin: 0 auto;
+#direita, #esquerda {
+	width: 50%;
+	height: 100%;
+	margin: 20px 0;
+	display: inline-block;
+}
+
+#direita {
+	float: right;
+}
+	
+#first {
+	padding-top: 30px;
 }
 
 .divisor {
@@ -55,16 +65,18 @@
 /*Media querie*/
 /*xs*/
 @media screen and (max-width: 767px) {
-	#contato div {
-		margin: 10px auto;
+	
+	#esquerda, #direita {
+		display: block;
+		margin: 15px auto;
 	}
 
-	
 
-
-
-
+	#direita {
+		float: none;
+	}
 }
+
 
 /*sm*/
 @media screen and (max-width: 991px) {
