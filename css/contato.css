@@ -53,15 +53,52 @@
 
 
 /*Media querie*/
-
+/*xs*/
 @media screen and (max-width: 767px) {
 	#contato div {
 		margin: 10px auto;
 	}
+
+	
+
+
+
+
 }
 
+/*sm*/
 @media screen and (max-width: 991px) {
 	#contato .row div {
 		margin: 15px 0;
+	}
+
+	#telefone p, #email p{
+		text-align: center;
+	}
+
+	#email p {
+		padding-top: 25px;
+	}
+
+
+	#telefone img, #email img{
+		position: relative;
+		top: 0;
+		left: 50%;
+	} 
+
+	#mapa iframe {
+		width: 100%;
+	}	
+}
+
+@media screen and (min-width: 992px) {
+	#telefone img {
+		margin-left: 10px;
+	}
+
+	#telefone p {
+		display: inline;
+		margin-left: 20px;	
 	}
 }
