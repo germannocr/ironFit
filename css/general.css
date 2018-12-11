@@ -162,8 +162,8 @@ p, span, a {
 }
 
 .img-dono {
-	width: 380px;
-	height: 300px;
+	/*width: 380px;
+	height: 300px;*/
 	border-radius: 3%;
 	box-shadow: 3px 2px 5px #827E84;
 }
