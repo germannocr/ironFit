@@ -1,10 +1,11 @@
+
+
 #contato {
 	background-color: #2E2E2E;
 }
 
 #contato .num, #contato p, #contato a {
 	color: #fff;
-	font-size: 2em;
 }
 
 #esquerda img {
@@ -65,17 +66,28 @@
 /*Media querie*/
 /*xs*/
 @media screen and (max-width: 767px) {
+
+	#contato img {
+		margin: 0;
+		padding: 0;
+	}
 	
 	#esquerda, #direita {
+		width: 100%;
 		display: block;
-		margin: 15px auto;
+	}	
+
+	#contato p, #contato a, #num {
+		width: 85vmin;
 	}
 
 
-	#direita {
-		float: none;
+	#email p {
+		margin-top: 15px;
 	}
-}
+	
+
+
 
 
 /*sm*/
