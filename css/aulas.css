@@ -7,7 +7,7 @@
 }
 
 .horarios {
-	border-bottom: 2px solid red;
+	border-bottom: 2px solid #2D3336;
 }
 
 .descricao li {
@@ -29,7 +29,7 @@
 
 
 @media screen and (min-width: 992px) {
-	#personal {
+	#personal, #avaliacao {
 		margin-top: 25%;
 	}
 }
