@@ -149,7 +149,7 @@ p, span, a {
 	font-family: 'PT Serif', serif;
 	font-size: 1.2em;
 	font-weight: 800;
-	color: #827E84;
+	color: #2D3336;
 }
 
 
@@ -198,7 +198,7 @@ p, span, a {
 	padding-right: 10px;
 }
 
-#rodape {
+#rodape, #rodape p, #rodape a, #rodape span {
 	background-color: #070709;
 	color: #fefe;
 	text-transform: uppercase;
