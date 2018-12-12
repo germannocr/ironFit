@@ -290,7 +290,7 @@ p, span, a {
 		width: 75vmin;
 	} 
 	
-	#num {
+	.num {
 		margin-left: 70px;
   }
 }
@@ -307,7 +307,7 @@ p, span, a {
 		font-size: 2.4em;
 	}
 
-	#num {
+	.num {
 		margin-left: 70px;
   }
 }

@@ -122,4 +122,8 @@
 	#telefone img {
 		margin-left: 10px;
 	}
+
+	#esquerda a  {
+		padding-left: 25px;
+	}
 }

@@ -9,8 +9,9 @@
 
 #carrossel {
 	margin: 15px auto;
+	max-width: 100%;
 }
-
+ 
 
 #motivo-titulo {
 	color: #f30301;
