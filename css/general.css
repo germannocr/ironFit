@@ -173,6 +173,7 @@ p, span, a {
 .descricao {
 	padding: 10px 10px;
 	vertical-align: center;
+	text-indent: 10mm;
 }
 
 

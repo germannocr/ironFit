@@ -5,3 +5,27 @@
 .descricao {
 	font-size: 1.3em;
 }
+
+.horarios {
+	border-bottom: 2px solid red;
+}
+
+.descricao li {
+	text-align: justify;
+}
+
+.descricao ul {
+	margin: 15px;
+}
+
+.descricao h3 {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+
+@media screen and (min-width: 992px) {
+	#personal {
+		margin-top: 25%;
+	}
+}
