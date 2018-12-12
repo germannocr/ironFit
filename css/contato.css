@@ -75,26 +75,27 @@
 	#esquerda, #direita {
 		width: 100%;
 		display: block;
+		border: 1px solid white;
 	}	
 
 	#contato p, #contato a, #num {
 		width: 85vmin;
+		margin: 0 auto;
 	}
 
 
 	#email p {
 		margin-top: 15px;
 	}
-	
+
+}
 
 
 
 
 /*sm*/
 @media screen and (max-width: 991px) {
-	#contato .row div {
-		margin: 15px 0;
-	}
+
 
 	#telefone p, #email p{
 		text-align: center;
@@ -104,12 +105,12 @@
 		padding-top: 25px;
 	}
 
-
 	#telefone img, #email img{
 		position: relative;
 		top: 0;
 		left: 50%;
 	} 
+
 
 	#mapa iframe {
 		width: 100%;
