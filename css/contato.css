@@ -77,6 +77,10 @@
 		display: block;
 	}	
 
+	#telefone, #email {
+		margin: 10px;
+	}
+
 	#contato p, #contato a, #num {
 		width: 85vmin;
 		margin: 0 auto;
@@ -84,25 +88,9 @@
 
 
 	#email p {
-		margin-top: 15px;
+		padding-top: 40px;
 	}
 
-}
-
-
-
-
-/*sm*/
-@media screen and (max-width: 991px) {
-
-
-	#telefone p, #email p{
-		text-align: center;
-	}
-
-	#email p {
-		padding-top: 25px;
-	}
 
 	#telefone img, #email img{
 		position: relative;
@@ -110,19 +98,28 @@
 		left: 50%;
 	} 
 
+	#telefone p, #email p{
+		text-align: center;
+	}
 
 	#mapa iframe {
 		width: 100%;
 	}	
+
+}
+
+
+/*sm*/
+@media screen and (min-width: 768px) {
+
+	#telefone p {
+		display: inline;
+	}	
+
 }
 
 @media screen and (min-width: 992px) {
 	#telefone img {
 		margin-left: 10px;
-	}
-
-	#telefone p {
-		display: inline;
-		margin-left: 20px;	
 	}
 }
