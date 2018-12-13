@@ -1,6 +1,5 @@
 /*Conteudo*/
 
-
 .img-dono {
 	border-radius: 3%;
 }
@@ -12,6 +11,7 @@
 	max-width: 100%;
 }
  
+
 
 #motivo-titulo {
 	color: #f30301;
@@ -75,13 +75,10 @@
 /*md > 992*/ 
 
 @media screen and (min-width: 992px ) and (max-width: 1079px) {
-
-
-  #motivos div {
-/*  	border: 1px solid red; */
-	float: left;
-
-  }
+	
+	#motivos .conteudo {
+		border: 1px solid red;
+	}
 }
 
 /*lg*/
