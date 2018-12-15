@@ -223,6 +223,15 @@ p, span, a {
 	margin-right: 25px;
 }
 
+#direitos {
+	width: 100%;
+}
+
+#direitos span {
+	font-size: 0.8em;
+	text-align: center;
+}
+
 /*Menu mobile se extende ate 992*/
 @media screen and (max-width : 991px){
   .mobile .lines {
